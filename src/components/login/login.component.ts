@@ -18,7 +18,7 @@ export class LoginComponent implements OnInit {
   @Output() onCancel = new EventEmitter()
 
   $t = $t
-  token = ''
+  token = 'a190775476'
   submiting = false
 
   constructor(
